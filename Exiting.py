@@ -57,7 +57,7 @@ while(b):
 			try:
 				SIGN_IN = open(email1,"r").read()
 				SIGN_IN1 = SIGN_IN.split(",")
-				if SIGN_IN1[3] == password:
+				if SIGN_IN1[2] == password:
 					print("\nPayment Sucessful")
 					a = False
 				else:
